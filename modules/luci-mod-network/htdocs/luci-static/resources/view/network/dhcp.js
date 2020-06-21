@@ -338,6 +338,10 @@ return view.extend({
 		s.tab('cnamehosts', _('CNAME'));
 		s.tab('pxe_tftp', _('PXE/TFTP'));
 
+		s.taboption('general', form.Flag, 'dns_redirect',
+			_('DNS Redirect'),
+			_('Redirect client DNS to dnsmasq'));
+
 		s.taboption('filteropts', form.Flag, 'domainneeded',
 			_('Domain required'),
 			_('Never forward DNS queries which lack dots or domain parts.') + '<br />' +
