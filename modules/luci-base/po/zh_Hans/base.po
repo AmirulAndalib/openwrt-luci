@@ -10987,3 +10987,6 @@ msgstr "DNS 重定向"
 
 msgid "Redirect client DNS to dnsmasq"
 msgstr "重定向客户端DNS到dnsmasq"
+
+msgid "NAS"
+msgstr "网络存储"
