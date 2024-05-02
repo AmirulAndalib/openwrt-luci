@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-06 13:23+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2024-04-20 11:05+0000\n"
+"Last-Translator: FKdeveloper <felix.koeppel.ch@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:75
 msgid "-- Set Selection --"
@@ -138,6 +138,8 @@ msgid ""
 "Allowlist modifications have been saved, start the Domain Lookup or restart "
 "banIP that changes take effect."
 msgstr ""
+"Änderungen an der Zulassungsliste wurden gespeichert, starten Sie den Domain "
+"Lookup oder starten Sie banIP neu, damit die Änderungen wirksam werden."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:417
 msgid "Always allow certain VLAN forwards."
@@ -288,7 +290,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:616
 msgid "Disable"
-msgstr ""
+msgstr "Deaktivieren"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:204
 msgid "Domain Lookup"
@@ -364,8 +366,9 @@ msgstr "Elemente"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:195
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:233
+#, fuzzy
 msgid "Empty field not allowed"
-msgstr ""
+msgstr "Das Feld darf nicht leer sein"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:246
 msgid "Enable the banIP service."
@@ -471,7 +474,7 @@ msgstr "Informationen"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:198
 msgid "Invalid characters"
-msgstr ""
+msgstr "Ungültige Zeichen"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:119
 msgid "Invalid input values, unable to save modifications."
@@ -831,7 +834,7 @@ msgstr "Stopp"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:617
 msgid "Subnet (default)"
-msgstr ""
+msgstr "Subnetz (Standard)"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:128
 msgid "Survey"
